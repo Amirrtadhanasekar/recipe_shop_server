@@ -1,0 +1,87 @@
+.recipe-details {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.recipe-title {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-content {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.recipe-info p {
+  position: relative;
+  padding-left: 1rem;
+  border-left: 4px solid #ff9966; /* You can change color */
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  background: #fff;
+}
+
+
+.recipe-image {
+  width: 320px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.recipe-info {
+  width: 100%;                  /* Full width of parent container */
+  background-color: #fff0e6;
+  padding: 2rem;                /* Increased padding for better readability */
+  border-radius: 32px;          /* Rounded corners, adjust as desired */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;       /* Ensures padding doesn't overflow */
+}
+
+
+.recipe-info h2 {
+  color: black;
+  margin-top: 0;
+}
+
+.recipe-info ul,
+.recipe-info ol {
+  padding-left: 1.25rem;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.author-section {
+  margin-bottom: 2rem;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.author-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.author-about {
+  font-size: 1rem;
+  line-height: 1.4;
+  max-width: 700px;
+  color: #333;
+}
+

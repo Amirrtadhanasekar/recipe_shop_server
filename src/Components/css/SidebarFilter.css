@@ -1,0 +1,59 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 120px;
+}
+
+.filter-block {
+  border-bottom: 1px solid #f0dede;
+  margin-bottom: 12px;
+}
+
+.filter-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-header:hover {
+  color: hotpink;
+}
+
+.filter-header .arrow {
+  transition: transform 0.3s ease;
+}
+
+.filter-header.open .arrow {
+  transform: rotate(90deg);
+}
+
+.filter-items {
+  list-style: none;
+  padding: 5px 0 10px 10px;
+  margin: 0;
+}
+
+.filter-items li {
+  margin-bottom: 6px;
+}
+
+.filter-items a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.filter-items a:hover {
+  color: #d36f52;
+}
